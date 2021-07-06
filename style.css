@@ -5,7 +5,7 @@ body{
 }
 .flexible-section{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .collum{
     width: 50%;
@@ -56,4 +56,39 @@ p{
     width: 100%;
     border-radius: 25px;
     height: 40%;
+}
+
+.menu-bar{
+    display: flex;
+    background-image: linear-gradient( #6fbcff, #0286F6);
+    height: 61px;
+    padding-bottom: 0;
+    
+}
+.logo img{
+    height: 100%;
+    padding-left: 20px;
+    width: 12%;
+}
+.logo{
+    width: 50%;
+}
+.menu-items{
+    width: 50%;
+    text-align: right;
+    margin-top: 15px;  
+}
+.menu-item{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    padding: 20px; 
+}
+
+.menu-item:hover{
+    background-color: white;
+    color: #6fbcff;
+    
+    
 }
