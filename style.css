@@ -3,8 +3,9 @@ body{
     color: rgb(61, 61, 61);
     margin: 0;
 }
-.hero-section{
+.flexible-section{
     display: flex;
+    margin-bottom: 150px;
 }
 .collum{
     width: 50%;
@@ -21,6 +22,10 @@ h1{
     font-size: 50px;
     font-weight: 800;
 }
+h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
 p{
     margin-bottom: 30px;
 }
@@ -36,4 +41,19 @@ p{
     background-image: url(bg-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.blog-text{
+    text-align: center;
+}
+.recipies{
+    width: 26%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 3%;
+    padding: 10px;
+    border-radius: 25px;
+}
+.recipies img{
+    width: 100%;
+    border-radius: 25px;
+    height: 40%;
 }
